@@ -21,3 +21,20 @@ ul.social-buttons li a:hover {
 #contact {
     padding: 30px;
 }
+.disclaimer {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: normal;
+}
+h4.footer-title{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+}
+footer {
+    padding-top: 25px;
+    padding-bottom: 0px;
+}
+.footer-img{
+    margin-top:30px;
+}
