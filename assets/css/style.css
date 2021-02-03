@@ -46,6 +46,12 @@ footer {
 #about .text-justify{
     line-height: 30px;
     
-    font-weight: 600;
+    
     color:#777;
+}
+.text-justify span{
+    font-weight: 800;
+}
+p {
+    font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
