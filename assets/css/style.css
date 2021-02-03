@@ -38,3 +38,8 @@ footer {
 .footer-img{
     margin-top:30px;
 }
+@media (min-width:768px) {
+    .clients img {
+        width: 200px;
+    }
+}
