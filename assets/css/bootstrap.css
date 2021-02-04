@@ -10321,7 +10321,11 @@
    #mainNav.navbar-shrink {
      padding-top: 0;
      padding-bottom: 0;
-     background-color: #29438a;
+     background-color: #fff;
+   }
+
+   #mainNav.navbar-shrink .nav-link {
+     color: black !important;
    }
  
    #mainNav.navbar-shrink .navbar-brand {

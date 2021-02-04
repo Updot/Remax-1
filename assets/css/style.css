@@ -55,3 +55,9 @@ footer {
 p {
     font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
+#slider-builder {
+    padding-top: 50px;
+}
+#slider-builder h2{
+    padding-bottom: 20px;
+}
