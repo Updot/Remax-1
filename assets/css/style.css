@@ -147,8 +147,14 @@ ul.list-inline li{
     h3 {
         font-size: 20px;
     }
-    ul.list-inline li{
+    footer ul.quicklinks li{
         display: block;
         padding: 5px;
+    }
+    section#about {
+        padding: 150px 0px;
+    }
+    section {
+        padding: 50px 0px;
     }
 }
