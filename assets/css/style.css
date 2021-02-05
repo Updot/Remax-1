@@ -94,3 +94,6 @@ ul.list-inline li{
     border:3px solid cyan;
     width: 30%;
 }
+#contact h2 {
+    color: black !important;
+}

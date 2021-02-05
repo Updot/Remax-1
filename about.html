@@ -14,9 +14,11 @@
     <link rel="icon" type="image/png" href="assets/img/favicon-196x196.png" sizes="196x196">
     <style>
         #mainNav {
-            background-color: #29438a;
             padding-top: 0px;
             padding-bottom: 0px;
+        }
+        #mainNav .navbar-nav .nav-item .nav-link,#mainNav .navbar-nav .nav-item .nav-link:hover{
+            color: black;
         }
     </style>
 </head>
@@ -24,12 +26,12 @@
 <body id="page-top">
     <nav class="navbar navbar-dark navbar-expand fixed-top" id="mainNav">
         <div class="container-fluid"><a class="navbar-brand" href="#page-top"></a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" data-toogle="collapse" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive"><img src="assets/img/mlogo.png" style="width: 158px;">
+            <div class="collapse navbar-collapse" id="navbarResponsive"><a href="index.html"><img src="assets/img/mlogo.png" style="width: 158px;"></a>
                 <ul class="nav navbar-nav ml-auto text-uppercase">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="about.html">About Us</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="services.html">Our Services</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="team.html">Team</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="events.html">Our Events</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li> -->
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="events.html">Events</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="contact.html">Contact Us</a></li>
                 </ul>
             </div>
@@ -38,7 +40,7 @@
     <section id="about">
         <div class="container">
             <!-- remax global -->
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="text-uppercase">About RE/MAX</h2>
                 </div>
@@ -54,7 +56,32 @@
                          estate transactions.
                     </p>
                 </div>
+            </div> -->
+            
+            <!-- remax infinity -->
+            <div class="row mt-3">
+                <div class="col-lg-12 text-center">
+                    <h2 class="text-uppercase">About RE/MAX Infinity</h2>
+                    <!-- <h3 class="text-muted section-subheading">Our Story</h3> -->
+                </div>
             </div>
+            <div class="row mt-3">
+                <div class="col-lg-10 mx-auto">
+                    <p class="text-justify">RE/MAX Infinity (INFIMAX ADVISORS PVT LTD) is an accomplished real estate firm, deals in Residential, 
+                        Commercial properties, and plotted/land parcels.Drawing from their years of experience they bring a strategic yet personal 
+                        approach to the home buying, selling and renting process over the years, we have built areputation for providing a seamless
+                        experience to customers to secure their dream home. Our dedication towards customers and unparalleled customer service has resulted
+                        in an ever-expanding network of clients.
+                    </p>
+                </div>
+                <div class="col-lg-10 mx-auto">
+                    <p class="text-justify">RE/MAX Infinity has been awarded as one of the top single offices in Asia pacific (Agent Net Gain)in the Asia
+                         Pac Convention in 2018 and also has been awarded as <span>Gold office in the year2019, South India Recruiter of the year 2019</span> and 2nd
+                          highest residential transactions 2019 in India. 
+                    </p>
+                </div>
+            </div>
+
             <!-- remax india -->
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -110,31 +137,8 @@
                     </p>
                 </div>
             </div>
-
-            <!-- remax infinity -->
-            <div class="row mt-3">
-                <div class="col-lg-12 text-center">
-                    <h2 class="text-uppercase">About RE/MAX Infinity</h2>
-                    <!-- <h3 class="text-muted section-subheading">Our Story</h3> -->
-                </div>
-            </div>
-            <div class="row mt-3">
-                <div class="col-lg-10 mx-auto">
-                    <p class="text-justify">RE/MAX Infinity (INFIMAX ADVISORS PVT LTD) is an accomplished real estate firm, deals in Residential, 
-                        Commercial properties, and plotted/land parcels.Drawing from their years of experience they bring a strategic yet personal 
-                        approach to the home buying, selling and renting process over the years, we have built areputation for providing a seamless
-                        experience to customers to secure their dream home. Our dedication towards customers and unparalleled customer service has resulted
-                        in an ever-expanding network of clients.
-                    </p>
-                </div>
-                <div class="col-lg-10 mx-auto">
-                    <p class="text-justify">RE/MAX Infinity has been awarded as one of the top single offices in Asia pacific (Agent Net Gain)in the Asia
-                         Pac Convention in 2018 and also has been awarded as <span>Gold office in the year2019, South India Recruiter of the year 2019</span> and 2nd
-                          highest residential transactions 2019 in India. 
-                    </p>
-                </div>
-            </div>
         </div>
+
     </section>
 
     <section id="team" class="bg-light">
@@ -142,7 +146,7 @@
             <h2 class="text-center">Our Founders</h2>
             <div class="row"> 
                 <div class="col-sm-4">
-                    <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/team/1.jpg">
+                    <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/ankush.jpeg">
                         <h4>Ankush Mussadi</h4>
                         <p class="text-muted">Managing Director, RE/MAX Infinity (Infimax Advisors Pvt. Ltd.)<br>
                             Regional Franchise Owner -Bangalore Region<br>
@@ -183,7 +187,7 @@
                     </p>
                 </div>
                 <div class="col-sm-4">
-                    <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/team/1.jpg">
+                    <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/cofounder.jpeg">
                         <h4>Sandeep Kumar</h4>
                         <p class="text-muted">Chief Mentor, RE/MAX Infinity<br>
                             CEO, HGS Holdings & Securities Pvt Ltd.</p>
@@ -198,7 +202,7 @@
         </div>
     </section>
         
-    <section id="contact" style="background-image:url('assets/img/wmap.png');">
+    <!-- <section id="contact" style="background-image:url('assets/img/wmap.png');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -228,9 +232,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <footer>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row my-4">
                 <div class="col-lg-2 footer-img"><img src="assets/img/REMAX India.png" alt="" width="160"></div>
                 <div class="col-lg-2">
@@ -283,7 +287,7 @@
         </div>
         <div class="container-fluid">
             <div class="row">
-                <img src="assets/img/footer-bg.png" width="100%" height="200">
+                <img src="assets/img/footer.png" width="100%" height="100">
             </div>
         </div>
     </footer>

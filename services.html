@@ -14,9 +14,11 @@
     <link rel="icon" type="image/png" href="assets/img/favicon-196x196.png" sizes="196x196">
     <style>
         #mainNav {
-            background-color: #29438a;
             padding-top: 0px;
             padding-bottom: 0px;
+        }
+        #mainNav .navbar-nav .nav-item .nav-link,#mainNav .navbar-nav .nav-item .nav-link:hover{
+            color: black;
         }
     </style>
 </head>
@@ -24,13 +26,12 @@
 <body id="page-top">
     <nav class="navbar navbar-dark navbar-expand fixed-top" id="mainNav">
         <div class="container-fluid"><a class="navbar-brand" href="#page-top"></a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" data-toogle="collapse" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive"><img src="assets/img/mlogo.png" style="width: 158px;">
+            <div class="collapse navbar-collapse" id="navbarResponsive"><a href="index.html"><img src="assets/img/mlogo.png" style="width: 158px;"></a>
                 <ul class="nav navbar-nav ml-auto text-uppercase">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="about.html">About Us</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="services.html">Our Services</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="events.html">Our Events</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="contact.html">Contact Us</a></li>
                 </ul>
             </div>
         </div>
@@ -64,7 +65,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Projects</h2>
+                    <h2 class="section-heading">Our Services</h2>
                     <h3 class="section-subheading text-muted">Best Builder Projects</h3>
                 </div>
             </div>
@@ -142,41 +143,8 @@
             </div>
         </div>
     </section>
-
-    <section id="contact" style="background-image:url('assets/img/wmap.png');">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="text-uppercase section-heading">Contact Us</h2>
-                    <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <form id="contactForm" name="contactForm" novalidate="novalidate">
-                        <div class="form-row">
-                            <div class="col col-md-6">
-                                <div class="form-group"><input class="form-control" type="text" id="name" placeholder="Your Name *" required=""><small class="form-text text-danger flex-grow-1 help-block lead"></small></div>
-                                <div class="form-group"><input class="form-control" type="email" id="email" placeholder="Your Email *" required=""><small class="form-text text-danger help-block lead"></small></div>
-                                <div class="form-group"><input class="form-control" type="tel" placeholder="Your Phone *" required=""><small class="form-text text-danger help-block lead"></small></div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group"><textarea class="form-control" id="message" placeholder="Your Message *" required=""></textarea><small class="form-text text-danger help-block lead"></small></div>
-                            </div>
-                            <div class="col">
-                                <div class="clearfix"></div>
-                            </div>
-                            <div class="col-lg-12 text-center">
-                                <div id="success"></div><button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Send Message</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
     <footer>
-        <div class="container">
+        <div class="container-fluid">
             <div class="row my-4">
                 <div class="col-lg-2 footer-img"><img src="assets/img/REMAX India.png" alt="" width="160"></div>
                 <div class="col-lg-2">
