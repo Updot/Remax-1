@@ -107,6 +107,18 @@ ul.list-inline li{
 .enquire .second {
     padding: 0px;
 }
+div.carousel-item {
+    margin-left:auto;
+    margin-right: auto;
+}
+img.card-img-top {
+    width: 90px;
+    margin-left:120px;
+    margin-right:70px;
+}
+.second-banner h3{
+    font-size: 22px;
+}
 @media (max-width:580px) {
     header.masthead .intro-text .intro-heading {
         margin-top: 30%;
@@ -156,5 +168,8 @@ ul.list-inline li{
     }
     section {
         padding: 50px 0px;
+    }
+    #contact {
+        padding-top:100px;
     }
 }

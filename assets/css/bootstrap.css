@@ -2542,7 +2542,7 @@
  
  .btn.focus,.btn:focus {
    outline: 0;
-   box-shadow: 0 0 0 .2rem rgba(254,209,54,.25);
+   box-shadow: 0 0 0 .2rem #29438a;
  }
  
  .btn.disabled,.btn:disabled {
@@ -2563,8 +2563,8 @@
  
  .btn-primary.focus,.btn-primary:focus,.btn-primary:hover {
    color: #212529;
-   background-color: #fec810;
-   border-color: #fec503;
+   background-color: #29438a;
+   border-color: #29438a;
  }
  
  .btn-primary.focus,.btn-primary:focus {
@@ -2818,8 +2818,8 @@
  
  .btn-outline-primary:hover {
    color: #212529;
-   background-color: #fed136;
-   border-color: #fed136;
+   background-color: #29438a;
+   border-color: #29438a;
  }
  
  .btn-outline-primary.focus,.btn-outline-primary:focus {
@@ -3053,7 +3053,7 @@
  
  .btn-link {
    font-weight: 400;
-   color: #fed136;
+   color: #29348a;
    text-decoration: none;
  }
  
@@ -10924,8 +10924,8 @@
  }
  
  .btn-primary:active,.btn-primary:focus,.btn-primary:hover {
-   background-color: #fec810!important;
-   border-color: #fec810!important;
+   background-color: #29348a!important;
+   border-color: #29348a!important;
    color: #fff;
  }
  
