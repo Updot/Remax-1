@@ -10874,11 +10874,14 @@
    color: #fed136!important;
  }
  
- h1,h2,h3,h4,h5,h6 {
+ h1,h2,h3,h4,h5,h6,span {
    font-weight: 700;
    font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif;
  }
  
+ li {
+  font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif;
+ }
  section {
    padding: 100px 0;
  }
