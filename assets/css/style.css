@@ -63,7 +63,7 @@ p {
 }
 ul.list-inline li{
     display: inline-block;
-    padding: 10px 5px;
+    padding: 10px 3px;
 }
 .choice {
     background: url('../img/city-bg.jpg') no-repeat;
@@ -96,4 +96,59 @@ ul.list-inline li{
 }
 #contact h2 {
     color: black !important;
+}
+.enquire p {
+    font-size: small;
+}
+.enquire h3{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.enquire .second {
+    padding: 0px;
+}
+@media (max-width:580px) {
+    header.masthead .intro-text .intro-heading {
+        margin-top: 30%;
+        
+        font-size: 30px;
+    }
+    #header-btn {
+        padding: 1rem 1rem;
+        font-size:15px !important;
+    }
+    #mainNav {
+        background-color: transparent;
+    }
+    #mainNav.navbar-shrink {
+        background-color: #fff !important;
+    } 
+    #mainNav.navbar-shrink .nav-link{
+        color: black !important;
+    }
+    .enquire p{
+        font-size: 10px ;
+    }
+    .enquire h3 {
+        padding-left: 0px;
+    padding-top: 0px;
+        font-size: 19px;
+    }
+    .enquire .second {
+        padding-left: 15px;
+    }
+    .enquire .btn{
+        margin-top: 10px;
+        font-size: 13px !important;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    ul.list-inline li{
+        display: block;
+        padding: 5px;
+    }
 }

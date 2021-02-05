@@ -10263,10 +10263,10 @@
    }
  }
  
- #mainNav {
-   background-color: #212529;
+ /* #mainNav {
+   background-color: #fff;
  }
- 
+  */
  #mainNav .navbar-toggler {
    font-size: 12px;
    right: 0;
@@ -10274,7 +10274,7 @@
    text-transform: uppercase;
    color: #fff;
    border: 0;
-   background-color: #fed136;
+   background-color: #df313c;
    font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif;
  }
  
