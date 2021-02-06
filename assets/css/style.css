@@ -107,10 +107,7 @@ ul.list-inline li{
 .enquire .second {
     padding: 0px;
 }
-div.carousel-item {
-    margin-left:auto;
-    margin-right: auto;
-}
+
 img.card-img-top {
     width: 90px;
     margin-left:120px;
@@ -119,7 +116,18 @@ img.card-img-top {
 .second-banner h3{
     font-size: 22px;
 }
+.masthead {
+    height: 100vh;
+}
 @media (max-width:580px) {
+    .navbar {
+        -webkit-transition: all 0.6s ease-out;
+        -moz-transition: all 0.6s ease-out;
+        -o-transition: all 0.6s ease-out;
+        -ms-transition: all 0.6s ease-out;
+        transition: all 0.6s ease-out;
+        border-radius: 0px;
+      }
     header.masthead .intro-text .intro-heading {
         margin-top: 30%;
         
@@ -172,4 +180,116 @@ img.card-img-top {
     #contact {
         padding-top:100px;
     }
+    .filter-button{
+        font-size: 10px !important;
+        border: 2px solid #29438a;
+        margin-right: 10px;
+        padding:5px 5px !important;
+        color: #29438a;
+        margin-bottom: 10px !important;
+        background:transparent;
+    }
+    .img-responsive {
+        width: 230px;
+        height: 130px;
+        padding: 5px 5px;   
+    }
+    .gallery-title {
+        margin-top: 50px;
+    }
+    footer.container-fluid img {
+        width:50% !important;
+    }
+    footer h6{
+        font-size: 10px !important; 
+    }
+    .nav-item {
+        padding-top: 20px;
+    }
+    .masthead {
+        height: 80vh;
+    }
 }
+
+@media (max-width: 992px){
+    .navbar-collapse {
+        background-color: #29438a;
+        position: fixed;
+        top: 0; /* adjust to height of navbar */
+        right: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 50%;
+        height: 100%;
+    }
+
+    .navbar-collapse.collapsing {
+        right: -75%;
+        transition: height 0s ease;
+    }
+
+    .navbar-collapse.show {
+        right: 0;
+        transition: left 300ms ease-in-out;
+    }
+
+    .navbar-toggler.collapsed ~ .navbar-collapse {
+        transition: right 500ms ease-in-out;
+    }
+}
+/*	general	*/
+
+/*	gallery */
+.img-responsive {
+    width:300px;
+    height:200px;
+}
+.gallery-title{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.filter-button{
+    font-size: 18px;
+    border: 2px solid #29438a;
+	padding:5px 10px;
+    color: #29438a;
+    margin-bottom: 30px;
+	background:transparent;
+}
+.filter-button:hover,
+.filter-button:focus,
+.filter-button.active{
+    color: #ffffff;
+    background-color:#29438a;
+	outline:none;
+}
+/* .gallery_product{
+    margin: 0px;
+	padding:0;
+	position:relative;
+} */
+.gallery_product .img-info{
+	position: relative;
+    background: rgba(0,0,0,0.5);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+	overflow:hidden;
+	color:#fff;
+	top:0;
+	display:none;
+	   -webkit-transition: 2s;
+    transition: 2s;
+}
+
+.gallery_product:hover .img-info{
+	display:block;
+   -webkit-transition: 2s;
+    transition: 2s;
+}
+
+/*	end gallery */
