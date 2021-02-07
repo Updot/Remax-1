@@ -48,6 +48,32 @@ function reduce(){
     }
 }
 
-$(document).ready(function ()) {
-    
-}
+$(window).on('resize', function (){
+    if($(window).width() <= 568 || screen.width <=568) {
+        var ele = document.getElementById('slider-builder slider-desktop');
+        ele.style.display="none";
+        var ele= document.getElementById('slider-builder slider-mobile');
+        ele.style.display="block";
+    }
+    if($(window).width() >=772 || screen.width >=772) {
+        var ele = document.getElementById('slider-builder slider-desktop');
+        ele.style.display="block";
+        var ele= document.getElementById('slider-builder slider-mobile');
+        ele.style.display="none";
+    }
+});
+
+$(window).on('load', function (){
+    if($(window).width() <= 568 || screen.width <=568) {
+        var ele = document.getElementById('slider-builder slider-desktop');
+        ele.style.display="none";
+        var ele= document.getElementById('slider-builder slider-mobile');
+        ele.style.display="block";
+    }
+    if($(window).width() >=772 || screen.width >=772) {
+        var ele = document.getElementById('slider-builder slider-desktop');
+        ele.style.display="block";
+        var ele= document.getElementById('slider-builder slider-mobile');
+        ele.style.display="none";
+    }
+});
