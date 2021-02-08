@@ -17,8 +17,10 @@
             padding-top: 0px;
             padding-bottom: 0px;
         }
-        #mainNav .navbar-nav .nav-item .nav-link,#mainNav .navbar-nav .nav-item .nav-link:hover{
+        @media (min-width: 768px) {
+            #mainNav .navbar-nav .nav-item .nav-link,#mainNav .navbar-nav .nav-item .nav-link:hover{
             color: black;
+        }
         }
     </style>
     <script src="assets/js/script.js"></script>
@@ -28,6 +30,7 @@
     <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
         <div class="container-fluid"><a href="index.html"><img src="assets/img/REMAX.png" style="width: 158px;"></a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" data-toogle="collapse" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
+                <button id="close-btn" class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i></button>
                 <ul class="nav navbar-nav ml-auto text-uppercase">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="about.html">About Us</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="services.html">Our Services</a></li>

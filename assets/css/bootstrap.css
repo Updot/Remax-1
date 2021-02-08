@@ -10411,7 +10411,7 @@
    height: 100%;
    transition: all .5s ease;
    opacity: 0;
-   background: rgba(254,209,54,.9);
+   background: #06429a;
  }
  
  #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {

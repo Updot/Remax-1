@@ -20,8 +20,10 @@
             padding-top: 0px;
             padding-bottom: 0px;
         }
-        #mainNav .navbar-nav .nav-item .nav-link,#mainNav .navbar-nav .nav-item .nav-link:hover{
+        @media (min-width: 768px) {
+            #mainNav .navbar-nav .nav-item .nav-link,#mainNav .navbar-nav .nav-item .nav-link:hover{
             color: black;
+        }
         }
     </style>
 </head>
@@ -30,6 +32,7 @@
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top" id="mainNav">
         <div class="container-fluid"><a href="index.html"><img src="assets/img/REMAX.png" style="width: 158px;"></a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" data-toogle="collapse" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
+                <button id="close-btn" class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i></button>
                 <ul class="nav navbar-nav ml-auto text-uppercase">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="about.html">About Us</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="services.html">Our Services</a></li>
@@ -79,7 +82,7 @@
                     <p class="text-muted">Wagohli, Pune</p>
                 </div> -->
             </div>
-            <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+            <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content"><p>Asia pac convention - 2018 Seoul, Korea</p></div>
                     </div><img class="img-fluid" src="assets/img/musical-instruments-isolated-party-evening.jpg">
@@ -89,7 +92,7 @@
                     <p class="text-muted">Vaishno Devi, Ahmedabad</p>
                 </div> -->
             </div>
-            <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+            <div class="col-sm-6 col-md-4 portfolio-item"><a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content"><p>Asia pac convention - Aug 2019, New Delhi, India</p></div>
                     </div><img class="img-fluid" src="assets/img/male-business-executive-giving-speech.jpg">
@@ -109,7 +112,7 @@
                     <p class="text-muted">VTP Celesta, NIBM, Pune</p>
                 </div> -->
             </div>
-            <div class="col-sm-6 col-md-4 portfolio-item mx-auto"><a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+            <div class="col-sm-6 col-md-4 portfolio-item mx-auto"><a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
                 <div class="portfolio-hover">
                     <div class="portfolio-hover-content"><p>R4-Feb, 2020, Las Vegas, USA</p></div>
                 </div><img class="img-fluid" src="assets/img/audience-applauding-speaker-after-conference-presentation (3).jpg">
@@ -347,16 +350,40 @@
                 <div class="modal-body">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-8 mx-auto">
+                            <div class="col-lg-12">
                                 <div class="modal-body">
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5-full.jpg">
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-unstyled">
-                                        <li>Date: January 2017</li>
-                                        <li>Client: Threads</li>
-                                        <li>Category: Illustration</li>
-                                    </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button>
+                                    <button class="btn-primary btn-sm" style="display:block;" data-dismiss="modal" type="button"><i class="fa fa-times"></i></button>
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category4">
+                                        <img class="img-responsive" alt="" src="assets/img/Asia pac convention 2019/WhatsApp Image 2021-02-04 at 12.12.45 PM (1).jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category4">
+                                        <img class="img-responsive" alt="" src="assets/img/Asia pac convention 2019/WhatsApp Image 2021-02-04 at 12.12.45 PM (2).jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category4">
+                                        <img class="img-responsive" alt="" src="assets/img/Asia pac convention 2019/WhatsApp Image 2021-02-04 at 12.12.45 PM.jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category4">
+                                        <img class="img-responsive" alt="" src="assets/img/Asia pac convention 2019/WhatsApp Image 2021-02-04 at 12.12.46 PM (1).jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category4">
+                                        <img class="img-responsive" alt="" src="assets/img/Asia pac convention 2019/WhatsApp Image 2021-02-04 at 12.12.46 PM (2).jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category4">
+                                        <img class="img-responsive" alt="" src="assets/img/Asia pac convention 2019/WhatsApp Image 2021-02-04 at 12.12.46 PM (3).jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category4">
+                                        <img class="img-responsive" alt="" src="assets/img/Asia pac convention 2019/WhatsApp Image 2021-02-04 at 12.12.46 PM (4).jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category4">
+                                        <img class="img-responsive" alt="" src="assets/img/Asia pac convention 2019/WhatsApp Image 2021-02-04 at 12.12.46 PM.jpeg"/>
+                                    </div>                        
                                 </div>
                             </div>
                         </div>
@@ -371,16 +398,132 @@
                 <div class="modal-body">
                     <div class="container">
                         <div class="row">
-                            <div class="col-lg-8 mx-auto">
+                            <div class="col-lg-12">
                                 <div class="modal-body">
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p><img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6-full.jpg">
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-unstyled">
-                                        <li>Date: January 2017</li>
-                                        <li>Client: Threads</li>
-                                        <li>Category: Illustration</li>
-                                    </ul><button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i><span>&nbsp;Close Project</span></button>
+                                    <button class="btn-primary btn-sm" style="display:block;" data-dismiss="modal" type="button"><i class="fa fa-times"></i></button>
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category5">
+                                        <img class="img-responsive" alt="" src="assets/img/Manpho Convention/WhatsApp Image 2021-02-04 at 12.28.15 PM (4).jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category5">
+                                        <img class="img-responsive" alt="" src="assets/img/Manpho Convention/WhatsApp Image 2021-02-04 at 12.28.14 PM (1).jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category5">
+                                        <img class="img-responsive" alt="" src="assets/img/Manpho Convention/WhatsApp Image 2021-02-04 at 12.28.14 PM.jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category5">
+                                        <img class="img-responsive" alt="" src="assets/img/Manpho Convention/WhatsApp Image 2021-02-04 at 12.28.15 PM (1).jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category5">
+                                        <img class="img-responsive" alt="" src="assets/img/Manpho Convention/WhatsApp Image 2021-02-04 at 12.28.15 PM (2).jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category5">
+                                        <img class="img-responsive" alt="" src="assets/img/Manpho Convention/WhatsApp Image 2021-02-04 at 12.28.15 PM (3).jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category5">
+                                        <img class="img-responsive" alt="" src="assets/img/Manpho Convention/WhatsApp Image 2021-02-04 at 12.28.15 PM.jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category5">
+                                        <img class="img-responsive" alt="" src="assets/img/Manpho Convention/WhatsApp Image 2021-02-04 at 12.31.35 PM.jpeg"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade portfolio-modal text-center" role="dialog" tabindex="-1" id="portfolioModal7">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="modal-body">
+                                    <button class="btn-primary btn-sm" style="display:block;" data-dismiss="modal" type="button"><i class="fa fa-times"></i></button>
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category6">
+                                        <img class="img-responsive" alt="" src="assets/img/R4-2020 Feb/WhatsApp Image 2021-02-04 at 12.37.50 PM (1).jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category6">
+                                        <img class="img-responsive" alt="" src="assets/img/R4-2020 Feb/WhatsApp Image 2021-02-04 at 12.37.50 PM (2).jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category6">
+                                        <img class="img-responsive" alt="" src="assets/img/R4-2020 Feb/WhatsApp Image 2021-02-04 at 12.37.50 PM (3).jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category6">
+                                        <img class="img-responsive" alt="" src="assets/img/R4-2020 Feb/WhatsApp Image 2021-02-04 at 12.37.50 PM (4).jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category6">
+                                        <img class="img-responsive" alt="" src="assets/img/R4-2020 Feb/WhatsApp Image 2021-02-04 at 12.37.50 PM (5).jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category6">
+                                        <img class="img-responsive" alt="" src="assets/img/R4-2020 Feb/WhatsApp Image 2021-02-04 at 12.37.50 PM (6).jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category6">
+                                        <img class="img-responsive" alt="" src="assets/img/R4-2020 Feb/WhatsApp Image 2021-02-04 at 12.37.50 PM (7).jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category6">
+                                        <img class="img-responsive" alt="" src="assets/img/R4-2020 Feb/WhatsApp Image 2021-02-04 at 12.37.50 PM (8).jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category6">
+                                        <img class="img-responsive" alt="" src="assets/img/R4-2020 Feb/WhatsApp Image 2021-02-04 at 12.37.50 PM (9).jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category6">
+                                        <img class="img-responsive" alt="" src="assets/img/R4-2020 Feb/WhatsApp Image 2021-02-04 at 12.37.50 PM.jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category6">
+                                        <img class="img-responsive" alt="" src="assets/img/R4-2020 Feb/WhatsApp Image 2021-02-04 at 12.42.28 PM.jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category6">
+                                        <img class="img-responsive" alt="" src="assets/img/R4-2020 Feb/WhatsApp Image 2021-02-04 at 12.42.29 PM (1).jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category6">
+                                        <img class="img-responsive" alt="" src="assets/img/R4-2020 Feb/WhatsApp Image 2021-02-04 at 12.42.29 PM (2).jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category6">
+                                        <img class="img-responsive" alt="" src="assets/img/R4-2020 Feb/WhatsApp Image 2021-02-04 at 12.42.29 PM (3).jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category6">
+                                        <img class="img-responsive" alt="" src="assets/img/R4-2020 Feb/WhatsApp Image 2021-02-04 at 12.42.29 PM.jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category6">
+                                        <img class="img-responsive" alt="" src="assets/img/R4-2020 Feb/WhatsApp Image 2021-02-04 at 12.42.30 PM (1).jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category6">
+                                        <img class="img-responsive" alt="" src="assets/img/R4-2020 Feb/WhatsApp Image 2021-02-04 at 12.42.30 PM (2).jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category6">
+                                        <img class="img-responsive" alt="" src="assets/img/R4-2020 Feb/WhatsApp Image 2021-02-04 at 12.42.30 PM (3).jpeg"/>
+                                    </div>
+                        
+                                    <div class="gallery_product col-sm-3 col-xs-6 filter category6">
+                                        <img class="img-responsive" alt="" src="assets/img/R4-2020 Feb/WhatsApp Image 2021-02-04 at 12.42.30 PM.jpeg"/>
+                                    </div>
                                 </div>
                             </div>
                         </div>
