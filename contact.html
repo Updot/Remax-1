@@ -29,7 +29,7 @@
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top" id="mainNav">
         <div class="container-fluid"><a href="index.html"><img src="assets/img/REMAX.png" style="width: 158px;"></a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" data-toogle="collapse" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <button id="close-btn" class="btn btn-primary" data-dismiss="modal" type="button"><i class="fa fa-times"></i></button>
+                <button id="close-btn" class="btn btn-primary" data-dismiss="modal" type="button"><i id="crossmark" class="fa fa-times"></i></button>
                 <ul class="nav navbar-nav ml-auto text-uppercase">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="about.html">About Us</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="services.html">Our Services</a></li>
@@ -53,20 +53,20 @@
                             <div class="col col-md-6" style="background-image: url('assets/img/contactus.png'); background-repeat: no-repeat; background-size: cover; background-position: 100% ;">
                             </div>
                             <div class="col-md-6">
-                                <div class="form-group-sm py-3"><input class="form-control" type="text" id="name" placeholder="Your Name *" required=""><small class="form-text text-danger flex-grow-1 help-block lead"></small></div>
-                                <div class="form-group-sm pb-3"><input class="form-control" type="email" id="email" placeholder="Your Email *" required=""><small class="form-text text-danger help-block lead"></small></div>
-                                <div class="form-group-sm pb-3"><input class="form-control" type="tel" placeholder="Your Phone *" required=""><small class="form-text text-danger help-block lead"></small></div>
-                                <div class="form-group-sm pb-3"><input class="form-control" type="text" placeholder="Your Address *" required=""><small class="form-text text-danger help-block lead"></small></div>
+                                <div class="form-group-sm py-3"><input class="form-control" type="text" name="Name" id="name" placeholder="Your Name *" required=""><small class="form-text text-danger flex-grow-1 help-block lead"></small></div>
+                                <div class="form-group-sm pb-3"><input class="form-control" type="email" name="Email" id="email" placeholder="Your Email *" required=""><small class="form-text text-danger help-block lead"></small></div>
+                                <div class="form-group-sm pb-3"><input class="form-control" type="text" name="Phone" placeholder="Your Phone *" required=""><small class="form-text text-danger help-block lead"></small></div>
+                                <div class="form-group-sm pb-3"><input class="form-control" type="text" name="Address" placeholder="Your Address *" required=""><small class="form-text text-danger help-block lead"></small></div>
                                 <div class="form-group-sm input-group mb-3">
-                                    <select class="custom-select" id="inputGroupSelect02">
+                                    <select class="custom-select" id="inputGroupSelect02" name="Purpose">
                                       <option selected>Choose...</option>
-                                      <option value="1">Join us for business</option>
-                                      <option value="2">Join us for franchise</option>
-                                      <option value="3">Join us for channel partner</option>
-                                      <option value="4">Enquiry for financing option</option>
+                                      <option value="Join us for business">Join us for business</option>
+                                      <option value="Join us for franchise">Join us for franchise</option>
+                                      <option value="Join us for channel partner">Join us for channel partner</option>
+                                      <option value="Enquiry for financing option">Enquiry for financing option</option>
                                     </select>
                                   </div>
-                                <div class="form-group-sm py-3"><textarea class="form-control" id="message" placeholder="Your Message *" required=""></textarea><small class="form-text text-danger help-block lead"></small></div>
+                                <div class="form-group-sm py-3"><textarea class="form-control" id="message" name="Message" placeholder="Your Message *" required=""></textarea><small class="form-text text-danger help-block lead"></small></div>
                                 <div id="success"></div><button class="btn btn-primary btn-lg text-uppercase text-center mx-auto" id="sendMessageButton" type="submit">Submit</button>
                                 <div id="status"></div>
                             </div>

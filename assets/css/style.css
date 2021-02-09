@@ -120,7 +120,24 @@ img.card-img-top {
     height: 100vh;
 }
 
+#portfolio .img-fluid {
+    width: 350px;
+    height: 240px !important;
+}
+
 @media (max-width:580px) {
+    #navbarResponsive {
+        box-shadow: 0 0 0 99999px rgba(0,0,0,0.5);
+    }
+    #close-btn {
+        margin-left:-70px;
+        background-color: transparent !important;
+        border: none;
+        float: left;
+    }
+    #crossmark {
+        font-size: xx-large;
+    }
     #contactus-banner {
         text-align: center !important;
     }

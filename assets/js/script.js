@@ -30,6 +30,10 @@ $(document).ready(function(){
     });
 });
 
+function scrollOff(){
+    console.log("clicked");
+}
+
 $(document).ready(function () {
     $(document).click(function (event) {
         var clickover = $(event.target);
