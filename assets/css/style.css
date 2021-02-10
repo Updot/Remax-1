@@ -253,6 +253,16 @@ img.card-img-top {
     .masthead {
         height: 80vh;
     }
+    #slider-builder\ slider-mobile {
+        position:relative;
+        top: -80px;
+    }
+    #slider-builder\ slider-mobile h2{
+        color: white;
+    }
+    .card {
+        background-color: transparent !important;
+    }
 }
 #slider-builder#slider-desktop .carousel-item .card-img-top,.carousel-item.active .card-img-top{
     border: 2px solid grey;
@@ -374,6 +384,16 @@ img.card-img-top {
   	}
 }
 @media (min-width: 769px) {
+    #slider-builder\ slider-desktop{
+        position:relative;
+        top: -80px;
+    }
+    #slider-builder\ slider-desktop h2{
+        color: white;
+    }
+    .card {
+        background-color: transparent !important;
+    }
     #page-top #close-btn {
         display: none;
     }
