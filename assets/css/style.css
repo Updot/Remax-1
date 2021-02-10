@@ -259,6 +259,7 @@ img.card-img-top {
     }
     #slider-builder\ slider-mobile h2{
         color: white;
+        margin-bottom: 15px;
     }
     .card {
         background-color: transparent !important;
