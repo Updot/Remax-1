@@ -391,6 +391,7 @@ img.card-img-top {
     }
     #slider-builder\ slider-desktop h2{
         color: white;
+        margin-bottom: 15px;
     }
     .card {
         background-color: transparent !important;
