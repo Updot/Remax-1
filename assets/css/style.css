@@ -126,6 +126,9 @@ img.card-img-top {
 }
 
 @media (max-width:768px) {
+    #desktop-second-banner {
+        display: none;
+    }
     #footer.container-fluid img{
         display: none;
     }
@@ -372,6 +375,12 @@ img.card-img-top {
 }
 @media (min-width: 769px) {
     #page-top #close-btn {
+        display: none;
+    }
+    #mobile-second-banner {
+        display: none;
+    }
+    #only-mobile {
         display: none;
     }
 }
