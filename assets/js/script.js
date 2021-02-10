@@ -74,7 +74,7 @@ $(window).on('load', function (){
         var ele= document.getElementById('slider-builder slider-mobile');
         ele.style.display="block";
     }
-    if($(window).width() >=772 || screen.width >=772) {
+    if($(window).width() >=768 || screen.width >=768) {
         var ele = document.getElementById('slider-builder slider-desktop');
         ele.style.display="block";
         var ele= document.getElementById('slider-builder slider-mobile');

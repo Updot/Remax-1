@@ -125,7 +125,10 @@ img.card-img-top {
     height: 240px !important;
 }
 
-@media (max-width:580px) {
+@media (max-width:768px) {
+    #footer.container-fluid img{
+        display: none;
+    }
     #navbarResponsive {
         box-shadow: 0 0 0 99999px rgba(0,0,0,0.5);
     }
@@ -367,7 +370,7 @@ img.card-img-top {
       pointer-events: none;
   	}
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     #page-top #close-btn {
         display: none;
     }
